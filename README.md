@@ -1,6 +1,6 @@
 # NoteXplorer-API
 This is an API which scrapes information about upcoming Hackathons and Tech Programs from different websites and enlists them.
-It is part of a project called **NoteX** ( link - https://github.com/The-NoteX/NoteX )
+It is part of a project called [**NoteX**](https://github.com/The-NoteX/NoteX)
 
 # Tech Stack Used
 - Python
@@ -10,7 +10,7 @@ It is part of a project called **NoteX** ( link - https://github.com/The-NoteX/N
 
 # Build Instruction
 - Clone the repo
-  ``` git clone https://github.com/TeeWrath/Hackathon-API.git ```
+  ``` git clone https://github.com/TeeWrath/NoteXplorer-API.git ```
 - Move to Repository Directory
   ``` cd NoteXplorer-API ```
 
