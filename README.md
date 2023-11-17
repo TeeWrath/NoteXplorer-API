@@ -9,10 +9,24 @@ It is part of a project called [**NoteX**](https://github.com/The-NoteX/NoteX)
 - Fast API
 
 # Build Instruction
-- Clone the repo
-  ``` git clone https://github.com/TeeWrath/NoteXplorer-API.git ```
-- Move to Repository Directory
-  ``` cd NoteXplorer-API ```
+- Clone the repo <br>
+  ```sh
+     git clone https://github.com/TeeWrath/NoteXplorer-API.git 
+  ```
+- Move to Repository Directory <br>
+  ```sh 
+  cd NoteXplorer-API 
+  ```
+- Build Docker Container <br>
+  ```sh
+      docker build -t main.py  .
+  ```
+- Use the container and activate the API <br>
+  ```sh
+      docker run -d -p 8000:80 --name fastapi-container main.py
+  ```
+- Use the following endpoint <br>
+  ``` http://10.50.5.86:8000/hackathons```
 
 # Contribution Guidelines
 - Clone the repositoy in your local system.
