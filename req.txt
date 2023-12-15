@@ -4,3 +4,5 @@ uvicorn
 webdriver-manager
 pandas
 scikit-learn
+requests
+datetime
