@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import json
 import time
+from scrappers.devfolio import Devfolio 
 
 def scrape_data():
     options = webdriver.ChromeOptions()
@@ -36,4 +37,6 @@ def scrape_data():
 # scrape_data()
 while(1):
     scrape_data()
+    devfolio=Devfolio()
+    devfolio.findall()
     time.sleep(86400)
